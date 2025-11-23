@@ -1,0 +1,30 @@
+# Simple Student Grade Calculator
+
+marks = int(input("Enter your marks (0-100): "))
+
+if marks >= 90:
+    grade = "A"
+    message = "Excellent work! You are shining! 🌟"
+
+elif marks >= 75:
+    grade = "B"
+    message = "Great job! Keep pushing forward! 💪"
+
+elif marks >= 60:
+    grade = "C"
+    message = "Good effort! You can improve even more! 👍"
+
+elif marks >= 45:
+    grade = "D"
+    message = "Not bad! A little more practice and you'll get there! 😊"
+
+elif marks >= 35:
+    grade = "E"
+    message = "You're almost there! Keep trying, success is close! 🌱"
+
+else:
+    grade = "F"
+    message = "Don't be upset. Failure is a part of learning. Try again and you will win! ❤️"
+
+print(f"Grade: {grade}")
+print(f"Message: {message}")
